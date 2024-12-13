@@ -7,6 +7,8 @@ body {
   justify-content: center;
   background-color: #F4F4F9;
   color: #333333;
+  overflow: hidden;
+  margin-top: 0;
 }
 
 .app {
@@ -17,29 +19,47 @@ body {
   margin-top: 50px;
   height: 100vw;
   width: 100vw;
-  gap: 10vw;
+  gap: 60px;
 }
 h1 {
   color: #3D5A80;
+  font-size: 40px;
 }
 
 form {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10vw;
+  gap: 45px;
+  height: 50px;
+  width: 236px;
 }
 
 input {
   border: 2px solid black;
-  border-radius: 2vw;
-  height: 7vw;
+  border-radius: 1.5vw;
+  height: 40px;
 }
 
-button {
+form > button {
+  text-align: center;
   border: 2px solid black;
-  border-radius: 2vw;
+  border-radius: 1.5vw;
   background-color: #6C63FF;
+  height: 40px;
+  width: 70px;
+  vertical-align: auto;
+}
+
+main > ul > li > button {
+  color: red;
+  vertical-align: middle;
+  height: 42px;
+  width: 40px;
+  font-size: 30px;
+  padding: 0;
+  border-radius: 10px;
+  background-color: transparent;
 }
 
 ul {
@@ -47,10 +67,10 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-left: -36vw;
+  margin-left: -150px;
   width: auto;
   height: auto;
-  gap: 2vw;
+  gap: 10px;
 }
 
 li {
@@ -61,7 +81,15 @@ li {
   justify-content: space-between;
   align-items: center;
   width: auto;
-  height: auto;
-  padding: 1vw 2vw;
-  gap: 1vw;
+  height: 40px;
+  padding: 2px 8px;
+  gap: 5px;
+}
+
+.root {
+  margin-top: 0;
+}
+
+.root {
+  margin-top: 0;
 }
